@@ -3,7 +3,7 @@ vim.g.mapleader = " "
 
 -- General settings
 vim.opt.number = true
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false
 vim.opt.wrap = false
 vim.opt.cursorline = true
 vim.api.nvim_set_hl(0, "CursorLine", {bg = "#111111", underline = false})
